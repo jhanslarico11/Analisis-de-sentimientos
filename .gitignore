@@ -1,20 +1,19 @@
-# Python bytecode
+
+# Caché de Python y Testing
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+.pytest_cache/
 
-# Entornos virtuales
+# Datos y modelos pesados
+# (Evita subir datasets gigantescos o checkpoints de modelos a GitHub)
+data/
+models/
+
+# Entornos virtuales si llegas a crear uno
 venv/
 .venv/
 env/
 
-# Archivos de datos y modelos pesados (opcional pero recomendado)
-# Si tus datasets o modelos entrenados son muy pesados, descomenta las líneas de abajo:
-# data/*.csv
-# models/*.pkl
-# models/*.pt
-# models/*.h5
-
-# Configuración local / Credenciales
-.env
+# Archivos del sistema
+.DS_Store
+Thumbs.db
