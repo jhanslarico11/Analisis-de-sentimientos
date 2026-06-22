@@ -1,0 +1,47 @@
+# Core
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.18.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# NLP
+nltk>=3.8.0
+spacy>=3.7.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# ML / Transformers (opcional - modo automático)
+transformers>=4.35.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+
+# YouTube API
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+
+# Reddit (opcional)
+praw>=7.7.0
+
+# Visualización
+wordcloud>=1.9.0
+matplotlib>=3.8.0
+
+# Reportes
+openpyxl>=3.1.0
+reportlab>=4.0.0
+
+# Utilidades
+python-dateutil>=2.8.0
+requests>=2.31.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Notebook
+jupyter>=1.0.0
+ipykernel>=6.25.0

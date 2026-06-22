@@ -1,0 +1,10 @@
+{
+  "name": "ppt-generator",
+  "version": "1.0.0",
+  "description": "Generates audit presentation",
+  "main": "generate.js",
+  "dependencies": {
+    "docx": "^9.7.1",
+    "pptxgenjs": "^3.12.0"
+  }
+}

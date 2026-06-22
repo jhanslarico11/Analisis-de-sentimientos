@@ -1,0 +1,20 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de datos y modelos pesados (opcional pero recomendado)
+# Si tus datasets o modelos entrenados son muy pesados, descomenta las líneas de abajo:
+# data/*.csv
+# models/*.pkl
+# models/*.pt
+# models/*.h5
+
+# Configuración local / Credenciales
+.env
